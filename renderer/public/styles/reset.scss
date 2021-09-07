@@ -1,0 +1,18 @@
+
+*{
+    /* font-family: Cafe24Shiningstar; */
+    font-family: bujang;
+    font-size: 24px;
+    /* background-color: rgb(186, 139, 218);    */
+    /* color: rgb(236, 236, 236); */
+    /* text-decoration: underline; */
+}
+/* font */
+@font-face {
+    font-family: Cafe24Shiningstar;
+    src: url(../../../resources/font/Cafe24Shiningstar.ttf);
+}
+@font-face {
+    font-family: bujang;
+    src: url(../../../resources/font/bujang.ttf);
+}
