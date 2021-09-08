@@ -3,9 +3,13 @@
     /* font-family: Cafe24Shiningstar; */
     font-family: bujang;
     font-size: 24px;
-    /* background-color: rgb(186, 139, 218);    */
+    // background-color: rgb(255, 255, 250);
     /* color: rgb(236, 236, 236); */
     /* text-decoration: underline; */
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 /* font */
 @font-face {
@@ -15,4 +19,22 @@
 @font-face {
     font-family: bujang;
     src: url(../../../resources/font/bujang.ttf);
+}
+
+body{
+    // background-color: rgb(174, 219, 204);
+    margin: 0;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.shadow{
+    boxShadow: '0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)'
 }

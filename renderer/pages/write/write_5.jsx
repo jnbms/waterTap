@@ -1,9 +1,10 @@
+<div>스스로 답해보기</div>
 import React, {useState} from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 const ReactQuill = dynamic(import('react-quill'),{ssr:false});
-import styles from '../../public/styles/second.module.scss';
+import styles from '../public/styles/second.module.scss';
 
 function Home(){
     const [text,setText] = useState("");
@@ -35,8 +36,8 @@ function Home(){
       {/* <div><Link href='/next'>클릭</Link></div> */}
       
       <div style={{display:'flex', width:'80%',justifyContent:'space-between'}}>
-      <div className={styles.button}><Link href='/home'>◁이전</Link></div>
-      <div className={styles.button}><Link href='/write/write_2'>다음▷</Link></div>
+      <div className={styles.button}> ← 이전으로 </div>
+      <div className={styles.button}> 다음으로 → </div>
       </div>
 
       <div style={{marginTop:'50px',display:'flex', flexDirection:'column', alignItems:'center',width:'80%'}}>
