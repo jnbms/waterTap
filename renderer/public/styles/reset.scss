@@ -24,6 +24,12 @@ a{
 body{
     // background-color: rgb(174, 219, 204);
     margin: 0;
+    // overflow-y: hidden;
+}
+body::-webkit-scrollbar {
+    // color: red;
+    // display:none;
+    visibility: hidden;
 }
 
 .column{

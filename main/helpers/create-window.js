@@ -76,6 +76,9 @@ export default function createWindow(windowName, options) {
       contextIsolation: false,
       ...options.webPreferences,
     },
+    // 최소 사이즈 설정
+    minWidth: 600,
+    minHeight: 600,
   });
   win.on('close', saveState);
   // CUSTOM
